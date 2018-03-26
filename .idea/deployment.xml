@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="hdp26spark">
+    <serverData>
+      <paths name="cdhspark">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pyspark" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hdp26spark">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pyspark" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
