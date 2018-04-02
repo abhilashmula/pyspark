@@ -17,3 +17,4 @@ for tablename in tablelist:
     database=databasename,
     dbtable=tablename).load()
     dataframe.show()
+    dataframe.write.format("orc").save("/infa/staging/pyspark/" + tablename)
