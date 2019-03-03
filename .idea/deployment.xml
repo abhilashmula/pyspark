@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="hdp26spark">
+  <component name="PublishConfigData" autoUpload="Always" compareModeInSync="TEXT">
     <serverData>
-      <paths name="cdhspark">
+      <paths name="root@192.168.1.146:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/pyspark" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="hdp26spark">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/tmp/pyspark" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/pyspark" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
